@@ -87,7 +87,7 @@ class MainController: UIViewController {
         grayScaleButton.addTarget(self, action: #selector(scaleToGray), for: .touchUpInside)
         invertColorBtn.addTarget(self, action: #selector(invert), for: .touchUpInside)
         lightShadeBtn.addTarget(self, action: #selector(lightsShade), for: .touchUpInside)
-        redSlider.addTarget(self, action: #selector(updat eRed), for: .valueChanged)
+        redSlider.addTarget(self, action: #selector(updateRed), for: .valueChanged)
         blueSlider.addTarget(self, action: #selector(updateBlue), for: .valueChanged)
         greenSlider.addTarget(self, action: #selector(updateGreen), for: .valueChanged)
         
